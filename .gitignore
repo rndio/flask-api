@@ -1,10 +1,12 @@
 # Virtual Environtment
 env/
+venv/
 
 # Compiled python files
 __pycache__/
 
 # Environtment variables
+.env
 
 # IDE/Editor files
 .vscode/

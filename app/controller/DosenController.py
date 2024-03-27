@@ -10,6 +10,7 @@ def index():
     data = formatarray(dosen)
     return response.success(data, "success")
   except Exception as e:
+    return response.badRequest([], e)
     print(e)
 
 def formatarray(datas):
